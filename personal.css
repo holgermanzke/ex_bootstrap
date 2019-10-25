@@ -5,3 +5,12 @@
 .card-img-top {
   max-height: 66px;
 }
+
+.cv-station {
+  color: red;
+}
+
+body {
+  /*background-image: url("resources/bg.gif");*/
+  background-color: lightskyblue;
+}
