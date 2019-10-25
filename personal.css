@@ -1,3 +1,7 @@
 .bg-xing {
   background-color: #007575;
 }
+
+.card-img-top {
+  max-height: 66px;
+}

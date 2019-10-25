@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="m-3">
         <div class="row">
           <div class="col-sm-7">
             <h1>Holger Manzke</h1>
@@ -50,7 +50,7 @@
             <img
               src="resources/Holger Manzke.jpg"
               alt="Ich bin Holger"
-              style="width: 80%"
+              style="width: 90%; border-radius: 7rem;"
               class="m-auto"
             />
           </div>
@@ -96,61 +96,132 @@
           GitHub
         </div>
         <!-- Kontakt -->
-        <div class="mt-4" style="background: goldenrod; height: 450px;">
-          Kontakt
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="jumbotron mt-4 bg-dark text-light">
+              <div class="container text-center">
+                <h1 class="display-4">Kontakt</h1>
+                <address>
+                  <h3>Holger Manzke</h3>
+                  <p class="lead">
+                    Pieperstr. 37<br />
+                    44789 Bochum <br />
+                    Deutschland
+                  </p>
+                  <p>
+                    <a class="btn btn-light" href="mailto:holger@bewerbung.net"
+                      >Schreib mir ne Mail!</a
+                    >
+                  </p>
+                </address>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kontaktformular -->
+          <div class="card col-lg-6 pb-3 mx-3 mt-4 px-0">
+            <!-- <div class="container"> -->
+            <div class="card-header text-light bg-dark">
+              Schreibe mit eine Nachricht
+            </div>
+
+            <form class="p-3">
+              <div class="form-group">
+                <label for="name">Dein Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="Email">Deine E-Mail:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Deine Nachricht</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark mx-auto">
+                abschicken
+              </button>
+            </form>
+            <!-- </div> -->
+          </div>
+          <div class="col-sm-6"></div>
         </div>
 
         <!-- Profile: GitHub, Xing, Linkedin -->
-        <!-- linkedin -->
-        <div class="card mt-4 p-2" style="width: 18rem;">
-          <img
-            src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"
-            class="card-img-top"
-            alt="Holger bei Linkedin"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Follow me on Linkedin</h5>
+        <div class="row">
+          <!-- linkedin -->
+          <div class="col-lg-4">
+            <div class="card mt-4 p-2 mx-auto" style="width: 18rem;">
+              <img
+                src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg"
+                class="card-img-top"
+                alt="Holger bei Linkedin"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Follow me on Linkedin</h5>
 
-            <a
-              href="https://www.linkedin.com/in/holger-manzke"
-              class="btn btn-primary"
-              >Zum Profil</a
-            >
+                <a
+                  href="https://www.linkedin.com/in/holger-manzke"
+                  class="btn btn-primary"
+                  >Zum Profil</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Xing -->
+          <div class="col-lg-4">
+            <div class="card mt-4 p-2 mx-auto" style="width: 18rem;">
+              <img
+                src="https://www.xing.com/assets/frontend_minified/img/svg/logo.svg"
+                class="card-img-top bg-xing"
+                alt="Holger bei Xing"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Besucht mich bei Xing</h5>
+
+                <a
+                  href="https://www.xing.com/profile/Holger_Manzke/cv"
+                  class="btn btn-primary"
+                  >Zum Profil</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- GitHub-->
+          <div class="col-lg-4">
+            <div class="card mt-4 p-2 mx-auto" style="width: 18rem;">
+              <img
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
+                class="card-img-top"
+                alt="Holger bei Linkedin"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Grandiose Projekte</h5>
+
+                <a
+                  href="https://github.com/holgermanzke"
+                  class="btn btn-primary"
+                  >Zu GitHub</a
+                >
+              </div>
+            </div>
           </div>
         </div>
-        <!-- Xing -->
-        <div class="card mt-4 p-2" style="width: 18rem;">
-          <img
-            src="https://www.xing.com/assets/frontend_minified/img/svg/logo.svg"
-            class="card-img-top bg-xing"
-            alt="Holger bei Xing"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Besucht mich bei Xing</h5>
-
-            <a
-              href="https://www.xing.com/profile/Holger_Manzke/cv"
-              class="btn btn-primary"
-              >Zum Profil</a
-            >
-          </div>
-        </div>
-        <!-- GitHub-->
-        <div class="card mt-4 p-2" style="width: 18rem;">
-          <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
-            class="card-img-top"
-            alt="Holger bei Linkedin"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Grandiose Projekte</h5>
-
-            <a href="https://github.com/holgermanzke" class="btn btn-primary"
-              >Zu GutHub</a
-            >
-          </div>
-        </div>
-
         <!-- Biographie -->
         <div class="mt-4" style="background: tomato; height: 450px;">
           Lebenslauf
