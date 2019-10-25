@@ -11,8 +11,8 @@ body {
   max-height: 66px;
 }
 .name {
-  font-family: "anton", sans-serif;
-  font-size: 2em;
+  font-family: "Lobster";
+  font-size: 4em;
 }
 
 .cv-station {
@@ -45,7 +45,7 @@ body {
   margin-bottom: 0.5em;
 }
 #s_java {
-  width: 10%;
+  width: 7%;
   border-radius: 2em;
   margin-bottom: 0.5em;
 }
