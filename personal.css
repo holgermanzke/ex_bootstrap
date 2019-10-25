@@ -19,3 +19,33 @@ body {
   font-family: "Amatic SC", cursive;
   font-size: 1.4em;
 }
+.full {
+  width: 100%;
+  background-color: lightgrey;
+  border-radius: 2em;
+}
+#s_bew {
+  width: 95%;
+  border-radius: 2em;
+  margin-bottom: 0.5em;
+}
+#s_wein {
+  width: 90%;
+  border-radius: 2em;
+  margin-bottom: 0.5em;
+}
+#s_html {
+  width: 20%;
+  border-radius: 2em;
+  margin-bottom: 0.5em;
+}
+#s_css {
+  width: 25%;
+  border-radius: 2em;
+  margin-bottom: 0.5em;
+}
+#s_java {
+  width: 10%;
+  border-radius: 2em;
+  margin-bottom: 0.5em;
+}
